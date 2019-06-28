@@ -1,5 +1,6 @@
 # Google Cloud Setup and Tutorial
 
+This Tutorial is refered to https://github.com/cs231n/gcloud
 
 ## BEFORE WE BEGIN ##
 ### BIG REMINDER: Make sure you stop your instances! ###
