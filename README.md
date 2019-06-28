@@ -10,7 +10,7 @@ After you SSH into the VM for the first time, you need to run a few commands in 
 
 ```bash
 git clone https://github.com/yinyikai/me346c_py.git
-cd gcloud/
+cd me346c_py
 chmod +x ./setup.sh
 ./setup.sh
 ```
