@@ -4,13 +4,6 @@
 ## BEFORE WE BEGIN ##
 ### BIG REMINDER: Make sure you stop your instances! ###
 
-(We know you won't read until the very bottom once your assignment is running, so we are printing this at the top too since it is ***super important***)
-
-Don't forget to ***stop your instance*** when you are done (by clicking on the stop button at the top of the page showing your instances), otherwise you will ***run out of credits*** and that will be very sad. :(
-
-If you follow our instructions below correctly, you should be able to restart your instance and the downloaded software will still be available.
-
-
 ## Jupyter notebook Setup Script
 
 After you SSH into the VM for the first time, you need to run a few commands in your home directory. You will be asked to set up a password for your Jupyter notebook.
@@ -57,10 +50,4 @@ The transfer works in both directions. To upload a file to GCE:
 gcloud compute scp /my/local/file tonystark@me346c:/home/shared/
 ```
 
-Another (perhaps easier) option proposed by a student is to directly download the zip file from Jupyter. After running the submission script and creating assignment1.zip, you can download that file directly from Jupyter. To do this, go to Jupyter Notebook and click on the zip file, which will be downloaded to your local computer.
-
 ## BIG REMINDER: Make sure you stop your instances! ##
-
-Don't forget to stop your instance when you are done (by clicking on the stop button at the top of the page showing your instances). You can restart your instance and the downloaded software will still be available.
-
-We have seen students who left their instances running for many days and ran out of credits. You will be charged per hour when your instance is running. This includes code development time. We encourage you to read up on Google Cloud, regularly keep track of your credits and not solely rely on our tutorials.
